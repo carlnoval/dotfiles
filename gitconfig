@@ -59,3 +59,12 @@
 
 [init]
   defaultBranch = master
+
+[user]
+	name = carlnoval
+  email = cjrnoval22@gmail.com
+
+# To default with SSH instead of https connection
+# Comment out the two rows below when doing 'brew update'
+[url "git@github.com:"]
+    insteadOf = "https://github.com/"
